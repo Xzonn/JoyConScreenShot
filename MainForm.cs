@@ -21,8 +21,8 @@ namespace JoyConScreenShot
         public enum ProductId
         {
             JoyCon_Left = 0x2006,
-            // JoyCon_Right = 0x2007,
-            // Pro_Controller = 0x2009,
+            JoyCon_Right = 0x2007,
+            Pro_Controller = 0x2009,
         }
 
         public delegate void ReadHandlerDelegate(HidReport report);
